@@ -41,12 +41,56 @@
     img {
     max-width: 333px;
     }
-    p {
-       max
-    }
+
 }
 
 /* screen sizes between 960px and 1200px */
-@media screen and (min-width:960px) and (max-width:1200px) {
+@media screen and (min-width:500px) {
     /* ... */
+    body {
+        font-family: Arial;
+    }
+
+    h1 {
+        float: left;
+    }
+
+    li {
+        display: inline-block;
+        padding: 1em;
+        float: right;
+    }
+    img {
+        width: 100%;
+    }
+
+    footer {
+        clear: both;
+        display: block;
+    }
+
+    .header-img {
+        clear: both;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hidden-on-desktop {
+        display: none;
+    }
+
+    .main {
+        float: left;
+        width: 55%;
+        padding: .5em;
+    }
+
+    .sub-section {
+        float: right;
+        width: 40%;
+        padding: .5em;
+        font-style: italic;
+    }
+
 }
