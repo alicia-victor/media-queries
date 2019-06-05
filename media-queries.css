@@ -1,0 +1,53 @@
+/* screen sizes 500px and up */
+@media screen and (min-width:200px) and (max-width: 499px) {
+    body {
+        font-family: Arial;
+        background-color: #ffffff;
+        margin: 15px;
+    }
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    h1 {
+        text-align: center;
+        width: 80%;
+    }
+    li {
+        width: 90%;
+        background-color: lightgray;
+        margin: .5em auto;
+        padding: 1em;
+    }
+    .alert-info {
+        width: 90%;
+        border: 1px solid gray;
+        background-color: #ceffff;
+        padding: 1em;
+        text-align: center;
+        margin: 1em auto;
+    }
+
+    .nav-links {
+        color: blue;
+        text-decoration: underline;
+        list-style: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    .header-img {
+        width: 30%;
+    }
+    img {
+    max-width: 333px;
+    }
+    p {
+       max
+    }
+}
+
+/* screen sizes between 960px and 1200px */
+@media screen and (min-width:960px) and (max-width:1200px) {
+    /* ... */
+}
