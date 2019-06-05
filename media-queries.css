@@ -42,6 +42,10 @@
     max-width: 333px;
     }
 
+    .social-links {
+        width: 10%;
+    }
+
 }
 
 /* screen sizes between 960px and 1200px */
@@ -91,6 +95,12 @@
         width: 40%;
         padding: .5em;
         font-style: italic;
+    }
+
+    .social-links {
+        width: 50px;
+        height: auto;
+        display: inline;
     }
 
 }
